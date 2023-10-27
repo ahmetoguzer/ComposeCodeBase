@@ -1,11 +1,11 @@
 package com.ahmet.composecodebase.navigation
 
 import com.ahmet.category.navigation.CategoryRoute
+import com.ahmet.composecodebase.R
 import com.ahmet.designsystems.icon.AppIcons
 import com.ahmet.designsystems.icon.Icon
 import com.ahmet.home.navigation.HomeNavigationRoute
 import com.ahmet.profile.navigation.ProfileRoute
-import com.ahmet.composecodebase.R
 
 enum class TopLevelDestination(
     val route: String,

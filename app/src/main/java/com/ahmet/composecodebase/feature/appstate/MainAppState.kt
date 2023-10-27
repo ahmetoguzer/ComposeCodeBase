@@ -12,10 +12,10 @@ import androidx.navigation.compose.currentBackStackEntryAsState
 import androidx.navigation.compose.rememberNavController
 import androidx.navigation.navOptions
 import com.ahmet.category.navigation.navigateToCategory
+import com.ahmet.composecodebase.navigation.TopLevelDestination
 import com.ahmet.data.util.NetworkMonitor
 import com.ahmet.home.navigation.navigateToHome
 import com.ahmet.profile.navigation.navigateToProfile
-import com.ahmet.composecodebase.navigation.TopLevelDestination
 import com.ahmet.ui.TrackDisposableJank
 import kotlinx.coroutines.CoroutineScope
 import kotlinx.coroutines.flow.SharingStarted

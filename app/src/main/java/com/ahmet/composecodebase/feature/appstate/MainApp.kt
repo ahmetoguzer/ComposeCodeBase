@@ -25,12 +25,12 @@ import androidx.compose.ui.semantics.testTagsAsResourceId
 import androidx.lifecycle.compose.collectAsStateWithLifecycle
 import androidx.navigation.NavDestination
 import androidx.navigation.NavDestination.Companion.hierarchy
-import com.ahmet.data.util.NetworkMonitor
-import com.ahmet.designsystems.component.MainAppScaffold
-import com.ahmet.designsystems.icon.Icon
 import com.ahmet.composecodebase.R
 import com.ahmet.composecodebase.navigation.MainNavHost
 import com.ahmet.composecodebase.navigation.TopLevelDestination
+import com.ahmet.data.util.NetworkMonitor
+import com.ahmet.designsystems.component.MainAppScaffold
+import com.ahmet.designsystems.icon.Icon
 
 /**
  * Created by mertcantoptas on 10.03.2023

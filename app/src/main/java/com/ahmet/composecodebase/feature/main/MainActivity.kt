@@ -18,9 +18,9 @@ import androidx.lifecycle.Lifecycle
 import androidx.lifecycle.lifecycleScope
 import androidx.lifecycle.repeatOnLifecycle
 import androidx.metrics.performance.JankStats
+import com.ahmet.composecodebase.feature.appstate.MainApp
 import com.ahmet.data.util.NetworkMonitor
 import com.ahmet.designsystems.theme.composecodebaseTheme
-import com.ahmet.composecodebase.feature.appstate.MainApp
 import dagger.hilt.android.AndroidEntryPoint
 import kotlinx.coroutines.flow.collect
 import kotlinx.coroutines.flow.onEach
