@@ -159,16 +159,16 @@ ksp = { id = "com.google.devtools.ksp", version.ref = "ksp" }
 secrets = { id = "com.google.android.libraries.mapsplatform.secrets-gradle-plugin", version.ref = "secrets" }
 
 # Plugins defined by this project
-samplecomposeandroid-android-application = { id = "samplecomposeandroid.android.application", version = "unspecified" }
-samplecomposeandroid-android-application-compose = { id = "samplecomposeandroid.android.application.compose", version = "unspecified" }
-samplecomposeandroid-android-application-firebase = { id = "samplecomposeandroid.android.application.firebase", version = "unspecified" }
-samplecomposeandroid-android-application-flavors = { id = "samplecomposeandroid.android.application.flavors", version = "unspecified" }
-samplecomposeandroid-android-application-jacoco = { id = "samplecomposeandroid.android.application.jacoco", version = "unspecified" }
-samplecomposeandroid-android-feature = { id = "samplecomposeandroid.android.feature", version = "unspecified" }
-samplecomposeandroid-android-hilt = { id = "samplecomposeandroid.android.hilt", version = "unspecified" }
-samplecomposeandroid-android-library = { id = "samplecomposeandroid.android.library", version = "unspecified" }
-samplecomposeandroid-android-library-compose = { id = "samplecomposeandroid.android.library.compose", version = "unspecified" }
-samplecomposeandroid-android-library-jacoco = { id = "samplecomposeandroid.android.library.jacoco", version = "unspecified" }
-samplecomposeandroid-android-lint = { id = "samplecomposeandroid.android.lint", version = "unspecified" }
-samplecomposeandroid-android-room = { id = "samplecomposeandroid.android.room", version = "unspecified" }
-samplecomposeandroid-android-test = { id = "samplecomposeandroid.android.test", version = "unspecified" }
+composecodebase-android-application = { id = "composecodebase.android.application", version = "unspecified" }
+composecodebase-android-application-compose = { id = "composecodebase.android.application.compose", version = "unspecified" }
+composecodebase-android-application-firebase = { id = "composecodebase.android.application.firebase", version = "unspecified" }
+composecodebase-android-application-flavors = { id = "composecodebase.android.application.flavors", version = "unspecified" }
+composecodebase-android-application-jacoco = { id = "composecodebase.android.application.jacoco", version = "unspecified" }
+composecodebase-android-feature = { id = "composecodebase.android.feature", version = "unspecified" }
+composecodebase-android-hilt = { id = "composecodebase.android.hilt", version = "unspecified" }
+composecodebase-android-library = { id = "composecodebase.android.library", version = "unspecified" }
+composecodebase-android-library-compose = { id = "composecodebase.android.library.compose", version = "unspecified" }
+composecodebase-android-library-jacoco = { id = "composecodebase.android.library.jacoco", version = "unspecified" }
+composecodebase-android-lint = { id = "composecodebase.android.lint", version = "unspecified" }
+composecodebase-android-room = { id = "composecodebase.android.room", version = "unspecified" }
+composecodebase-android-test = { id = "composecodebase.android.test", version = "unspecified" }

@@ -1,13 +1,13 @@
 @Suppress("DSL_SCOPE_VIOLATION") // TODO: Remove once KTIJ-19369 is fixed
 plugins {
-    alias(libs.plugins.samplecomposeandroid.android.application)
-    alias(libs.plugins.samplecomposeandroid.android.application.compose)
-    alias(libs.plugins.samplecomposeandroid.android.application.flavors)
-    alias(libs.plugins.samplecomposeandroid.android.application.jacoco)
-    alias(libs.plugins.samplecomposeandroid.android.hilt)
+    alias(libs.plugins.composecodebase.android.application)
+    alias(libs.plugins.composecodebase.android.application.compose)
+    alias(libs.plugins.composecodebase.android.application.flavors)
+    alias(libs.plugins.composecodebase.android.application.jacoco)
+    alias(libs.plugins.composecodebase.android.hilt)
     id("jacoco")
-    id("samplecomposeandroid.android.room")
-    id("samplecomposeandroid.kotlinter")
+    id("composecodebase.android.room")
+    id("composecodebase.kotlinter")
 }
 
 android {
@@ -15,7 +15,7 @@ android {
         buildConfig = true
     }
     defaultConfig {
-        applicationId = "com.loodos.samplecomposeandroid"
+        applicationId = "com.ahmet.composecodebase"
         versionCode = 1
         versionName = "1.0"
 
@@ -32,7 +32,7 @@ android {
         }
     }
 
-    namespace = "com.loodos.samplecomposeandroid"
+    namespace = "com.ahmet.composecodebase"
 }
 dependencies {
     implementation(projects.feature.login)

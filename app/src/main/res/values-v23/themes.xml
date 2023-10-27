@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
 
-    <style name="PlatformAdjusted.Theme.SampleComposeAndroid" parent="NightAdjusted.Theme.SampleComposeAndroid">
+    <style name="PlatformAdjusted.Theme.composecodebase" parent="NightAdjusted.Theme.composecodebase">
         <item name="android:statusBarColor">@android:color/transparent</item>
     </style>
 </resources>

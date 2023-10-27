@@ -5,9 +5,9 @@ import org.gradle.api.Project
 import org.gradle.api.artifacts.VersionCatalogsExtension
 import org.gradle.kotlin.dsl.configure
 import org.gradle.kotlin.dsl.getByType
-import samplecomposeandroid.configureFlavors
-import samplecomposeandroid.configureKotlinAndroid
-import samplecomposeandroid.configurePrintApksTask
+import composecodebase.configureFlavors
+import composecodebase.configureKotlinAndroid
+import composecodebase.configurePrintApksTask
 
 class AndroidApplicationConventionPlugin : Plugin<Project> {
     override fun apply(target: Project) {

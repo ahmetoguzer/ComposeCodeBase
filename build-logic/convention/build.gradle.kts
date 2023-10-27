@@ -4,7 +4,7 @@ plugins {
     `kotlin-dsl`
 }
 
-group = "com.loodos.samplecomposeandroid.buildlogic"
+group = "com.ahmet.composecodebase.buildlogic"
 
 // Configure the build-logic plugins to target JDK 17
 // This matches the JDK used to build the project, and is not related to what is running on device.
@@ -28,57 +28,57 @@ dependencies {
 gradlePlugin {
     plugins {
         register("androidApplicationCompose") {
-            id = "samplecomposeandroid.android.application.compose"
+            id = "composecodebase.android.application.compose"
             implementationClass = "AndroidApplicationComposeConventionPlugin"
         }
         register("androidApplication") {
-            id = "samplecomposeandroid.android.application"
+            id = "composecodebase.android.application"
             implementationClass = "AndroidApplicationConventionPlugin"
         }
         register("androidApplicationJacoco") {
-            id = "samplecomposeandroid.android.application.jacoco"
+            id = "composecodebase.android.application.jacoco"
             implementationClass = "AndroidApplicationJacocoConventionPlugin"
         }
         register("androidLibraryCompose") {
-            id = "samplecomposeandroid.android.library.compose"
+            id = "composecodebase.android.library.compose"
             implementationClass = "AndroidLibraryComposeConventionPlugin"
         }
         register("androidLibrary") {
-            id = "samplecomposeandroid.android.library"
+            id = "composecodebase.android.library"
             implementationClass = "AndroidLibraryConventionPlugin"
         }
         register("androidFeature") {
-            id = "samplecomposeandroid.android.feature"
+            id = "composecodebase.android.feature"
             implementationClass = "AndroidFeatureConventionPlugin"
         }
         register("androidLibraryJacoco") {
-            id = "samplecomposeandroid.android.library.jacoco"
+            id = "composecodebase.android.library.jacoco"
             implementationClass = "AndroidLibraryJacocoConventionPlugin"
         }
 
         register("androidTest") {
-            id = "samplecomposeandroid.android.test"
+            id = "composecodebase.android.test"
             implementationClass = "AndroidTestConventionPlugin"
         }
         register("androidHilt") {
-            id = "samplecomposeandroid.android.hilt"
+            id = "composecodebase.android.hilt"
             implementationClass = "AndroidHiltConventionPlugin"
         }
         register("androidRoom") {
-            id = "samplecomposeandroid.android.room"
+            id = "composecodebase.android.room"
             implementationClass = "AndroidRoomConventionPlugin"
         }
         register("firebase-perf") {
-            id = "samplecomposeandroid.firebase-perf"
+            id = "composecodebase.firebase-perf"
             implementationClass = "FirebasePerfConventionPlugin"
         }
         register("androidFlavors") {
-            id = "samplecomposeandroid.android.application.flavors"
+            id = "composecodebase.android.application.flavors"
             implementationClass = "AndroidApplicationFlavorsConventionPlugin"
         }
 
         register("kotlinter") {
-            id = "samplecomposeandroid.kotlinter"
+            id = "composecodebase.kotlinter"
             implementationClass = "KotlinLinterPlugin"
         }
     }

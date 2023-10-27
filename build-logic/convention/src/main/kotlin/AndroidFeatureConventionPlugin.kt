@@ -11,8 +11,8 @@ class AndroidFeatureConventionPlugin : Plugin<Project> {
     override fun apply(target: Project) {
         with(target) {
             pluginManager.apply {
-                apply("samplecomposeandroid.android.library")
-                apply("samplecomposeandroid.android.hilt")
+                apply("composecodebase.android.library")
+                apply("composecodebase.android.hilt")
             }
             extensions.configure<LibraryExtension> {
                 defaultConfig {
